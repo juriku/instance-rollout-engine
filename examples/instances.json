@@ -1,0 +1,32 @@
+[
+  {
+    "instance_id": "svc-a1",
+    "code_version": "abc123",
+    "configuration_version": "def456",
+    "health": "healthy"
+  },
+  {
+    "instance_id": "svc-a2",
+    "code_version": "abc123",
+    "configuration_version": "def456",
+    "health": "healthy"
+  },
+  {
+    "instance_id": "svc-a3",
+    "code_version": "abc123",
+    "configuration_version": "def456",
+    "health": "healthy"
+  },
+  {
+    "instance_id": "svc-b1",
+    "code_version": "abc123",
+    "configuration_version": "def456",
+    "health": "healthy"
+  },
+  {
+    "instance_id": "svc-b2",
+    "code_version": "abc123",
+    "configuration_version": "def456",
+    "health": "healthy"
+  }
+]

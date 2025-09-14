@@ -1,0 +1,21 @@
+# Docker ignore file for deployment engine
+.git
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv
+venv/
+.env
+.pytest_cache
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+.DS_Store
+Dockerfile
+docker-compose.yml
+.dockerignore

@@ -1,0 +1,28 @@
+
+services:
+  # TESTS
+  deployment-engine-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: deployment-engine-tests
+    volumes:
+      - .:/app
+    command: pytest -v
+    profiles:
+      - tests
+
+  # CLI
+  deployment-engine-cli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: deployment-engine-cli
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+    profiles:
+      - cli
